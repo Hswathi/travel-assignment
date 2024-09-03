@@ -1,0 +1,48 @@
+#choose-places{
+    height: 100vh;
+    padding: 1rem;
+    padding-left: 15rem;
+}
+.place-title{
+    padding-left: 14rem;
+}
+  .choose {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center;
+    max-width: 40rem;
+    padding-right: 7rem;
+  }
+  
+  .image-container {
+    position: relative;
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+  }
+  
+  .place-image {
+    width: 100%;
+    height: auto; 
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .image-text {
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: white; 
+    background-color: transparent; 
+    padding: 1rem; 
+    text-align: left; 
+    font-size: 14px; 
+    width: calc(100% - 10px); 
+  }
+  

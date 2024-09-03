@@ -1,0 +1,21 @@
+.video-player{
+    height: 100vh;
+    padding: 5rem;
+    background-color: darkgray;
+    
+}
+.video-title{
+    padding-top: 3rem;
+    padding-left: 27rem;
+}
+.video-container{
+    width: 40rem;
+    height: 20rem;
+    padding-left: 19rem;
+    background-color: brown;
+}
+.video__content{
+ height:15rem ;
+ width: 25rem;
+ background-color: lawngreen;
+}
